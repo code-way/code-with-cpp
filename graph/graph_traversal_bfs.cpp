@@ -49,7 +49,7 @@ public:
 	        T node = q.front();
 	        q.pop();
 	        cout<<node<<" ";
-	        // For every neighbour of that node check if it is not visited then push it to queue and mark as visited
+	        // For the neighbours of the current node, find out the nodes which are not visited
             for(auto neighbour: adjList[node]){
                 if(!vis[neighbour]){
 	                q.push(neighbour);
