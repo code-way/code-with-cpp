@@ -38,7 +38,7 @@ public:
 		 }
 	}
 	void bfs(T src){
-	    // First mark the all node as unvisited
+	    // First mark all nodes as unvisited
 	    bool vis[V]={false};
 	    queue<T> q;
 	    // push the first element to queue and mark as visited
