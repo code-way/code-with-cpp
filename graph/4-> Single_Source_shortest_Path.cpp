@@ -1,4 +1,5 @@
 // Single Source Sortest Path (SSSP) : calculate the shortest path from a single source node to all the other nodes.
+// Why can't BFS solve all single source shortest path problems? Link : https://qr.ae/pNHOZD
 #include<bits/stdc++.h>
 using namespace std;
 
